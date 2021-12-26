@@ -4,6 +4,9 @@ html{
   scroll-behavior: smooth;
 }
 
+.wrapper-origin{
+  transform: rotate(0);
+  }
 
 *,
 *::before,
@@ -64,9 +67,7 @@ height: auto;
   transform-style: preserve-3d;
 }
 
-.wrapper-origin{
-transform: rotate(0);
-}
+
 
 .card{
   width: 200px;
